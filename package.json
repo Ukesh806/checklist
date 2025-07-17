@@ -2,9 +2,10 @@
   "name": "my-check-project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "project/app.js",
   "scripts": {
-    "build": "echo \"Please specify your build command here\" && exit 1",
+    "start": "node project/app.js",
+    "build": "echo \"No build step required\" && exit 0",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
